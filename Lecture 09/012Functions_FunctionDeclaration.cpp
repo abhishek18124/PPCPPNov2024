@@ -2,9 +2,7 @@
 
 using namespace std;
 
-void f(const int& ref) {
-
-}
+void f(int x);
 
 int main() {
 
@@ -12,3 +10,8 @@ int main() {
 
 	return 0;
 }
+
+void f(int x) {
+	cout << x << endl;
+}
+
